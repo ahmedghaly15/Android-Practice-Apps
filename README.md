@@ -51,7 +51,12 @@ Every project here represents a concept I wanted to understand by actually shipp
 | # | Project | Description | Key Concepts | Status |
 | :-: | :--- | :--- | :--- | :---: |
 | 01 | [🎂 Birthday Card App](./Android-Practice-Apps/Birthday-Card-App) | Full-screen themed birthday greeting card | Compose basics, `Box`/`Column`, image painting, string resources, previews | ✅ Complete |
-| 02 | _Coming soon_ | _Next experiment in the works_ | _Stay tuned_ | 🚧 In progress |
+| 02 | [📄 Compose Article App](./Android-Practice-Apps/Compose-Article-App) | Article layout with Compose | `Column`, `Image`, `Text`, Material 3 Surface | ✅ Complete |
+| 03 | [📐 Compose Quadrant App](./Android-Practice-Apps/ComposeQuardantApp) | 4-quadrant Compose layout grid | `Row`, `Column`, `weight`, `colorResource` | ✅ Complete |
+| 04 | [🎲 Dice Roller App](./Android-Practice-Apps/DiceRollerApp) | Dice rolling app with random images | `remember`, `mutableStateOf`, `random`, `Button` | ✅ Complete |
+| 05 | [🍋 Lemonade App](./Android-Practice-Apps/lemonade) | Interactive lemonade squeezing game | `Scaffold`, `TopAppBar`, multi-step state flow | ✅ Complete |
+| 06 | [✅ Tasks Complete App](./Android-Practice-Apps/TasksCompleteApp) | All tasks complete screen | `Image`, `Column`, `Text`, `fontWeight` | ✅ Complete |
+| 07 | [💡 Tip Calculator App](./Android-Practice-Apps/TipCalculator) | Tip calculator with bill splitting | `TextField`, `Switch`, State, currency formatting | ✅ Complete |
 
 <sub>🟢 Complete · 🟡 In progress · 🔵 Planned</sub>
 
@@ -63,22 +68,13 @@ Every project here represents a concept I wanted to understand by actually shipp
 Android-Practice-Apps/
 ├── README.md
 └── Android-Practice-Apps/
-    └── Birthday-Card-App/              # Standalone Gradle project
-        ├── app/
-        │   ├── src/
-        │   │   ├── main/
-        │   │   │   ├── java/com/example/birthday_card_app/
-        │   │   │   │   ├── MainActivity.kt
-        │   │   │   │   └── ui/theme/   # Color.kt · Theme.kt · Type.kt
-        │   │   │   ├── res/            # drawables, strings, themes
-        │   │   │   └── AndroidManifest.xml
-        │   │   ├── test/               # Unit tests
-        │   │   └── androidTest/        # Instrumented tests
-        │   ├── build.gradle.kts
-        │   └── proguard-rules.pro
-        ├── gradle/libs.versions.toml   # Dependency version catalog
-        ├── build.gradle.kts
-        └── settings.gradle.kts
+    ├── Birthday-Card-App/              # Standalone Gradle project
+    ├── Compose-Article-App/              # Compose article layout
+    ├── ComposeQuardantApp/               # Compose quadrant grid layout
+    ├── DiceRollerApp/                    # Dice rolling app
+    ├── lemonade/                         # Lemonade squeezing game
+    ├── TasksCompleteApp/                 # All tasks complete screen
+    └── TipCalculator/                    # Tip calculator app
 ```
 
 ---
@@ -107,7 +103,7 @@ A snapshot of where I am and where I'm heading.
 
 ![Last Commit](https://img.shields.io/github/last-commit/ahmedghaly15/Android-Practice-Apps?style=flat-square&color=7F52FF)
 ![Repo Size](https://img.shields.io/github/repo-size/ahmedghaly15/Android-Practice-Apps?style=flat-square&color=3DDC84)
-![Projects](https://img.shields.io/badge/projects-1%20%26%20counting-4285F4?style=flat-square)
+![Projects](https://img.shields.io/badge/projects-7%20%26%20counting-4285F4?style=flat-square)
 
 </div>
 
